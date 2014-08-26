@@ -9,3 +9,4 @@ gem "mongoid",         "~> 4.0.0"
 
 # application stack
 gem "rake"
+gem "dotenv",          "~> 0.10.0"

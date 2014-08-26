@@ -15,6 +15,7 @@ GEM
     connection_pool (2.0.0)
     cuba (3.1.1)
       rack
+    dotenv (0.10.0)
     ffi (1.9.3-java)
     i18n (0.6.11)
     json (1.8.1-java)
@@ -46,6 +47,7 @@ PLATFORMS
 
 DEPENDENCIES
   cuba (~> 3.1.1)
+  dotenv (~> 0.10.0)
   jubilee (~> 2.0.0.pre.java)
   mongoid (~> 4.0.0)
   rake

@@ -13,3 +13,12 @@ gem "dotenv",          "~> 0.10.0"
 
 # security
 gem "rack-protection", "~> 1.5.2"
+
+# test suite
+group :test do
+  gem "rack-test",            "~> 0.6.2"
+  gem "minitest",             "~> 5.4.0"
+  gem "minitest-reporters",   "~> 1.0.5"
+  gem "factory_girl",         "~> 4.0"
+  gem "simplecov",            "~> 0.7.1"
+end

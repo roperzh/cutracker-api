@@ -27,8 +27,10 @@ end
 
 desc "Run a interactive console (IRB)"
 task :console => :environment do
-  ARGV.clear
+  ENV['RACK_ENV'] ||= 'development'
+  %w(irb irb/completion).each { |f| require f }
+  require_relative 'app'
 
-  require "irb"
+  ARGV.clear
   IRB.start
 end

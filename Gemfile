@@ -21,4 +21,5 @@ group :test do
   gem "minitest-reporters",   "~> 1.0.5"
   gem "factory_girl",         "~> 4.0"
   gem "simplecov",            "~> 0.7.1"
+  gem 'guard-jruby-minitest'
 end
